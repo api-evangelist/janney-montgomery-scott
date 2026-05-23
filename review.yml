@@ -1,0 +1,42 @@
+aid: janney-montgomery-scott
+name: Janney Montgomery Scott
+url: https://www.janney.com
+type: company
+tier: 3
+tier-reason: no-apis
+reviewed: '2026-05-23'
+reviewer: Kin Lane
+summary: >-
+  Private Philadelphia-based wealth management and investment banking firm
+  (est. 1832), wholly owned subsidiary of Penn Mutual Life. 900+ financial
+  advisors across 100+ U.S. branches, $167B+ in client assets under
+  advisement. Client-facing only: MyJanney online portal plus iOS/Android
+  mobile apps. No public developer API, no OpenAPI spec, no developer
+  portal, no SDKs. GitHub org (Janney-Montgomery-Scott) exists with zero
+  public repositories. Engineering footprint is fully internal — advisor
+  technology is sourced from third-party platforms (Pershing NetX360 and
+  similar industry vendors) rather than built in-house and exposed.
+findings:
+  apis: 0
+  openapi_specs: 0
+  sdks: 0
+  developer_portal: false
+  status_page_public: false
+  changelog_public: false
+  github_public_repos: 0
+  mobile_apps: 2
+strengths:
+  - Long-tenured private wealth management firm with stable ownership under Penn Mutual
+  - Active recruiting growth — 33 advisors and $6.5B+ in assets added in 2025
+  - Established client-facing digital channels (MyJanney web + mobile)
+gaps:
+  - No public developer API or OpenAPI specification
+  - No external developer portal or sandbox
+  - No public SDKs, CLIs, or webhooks
+  - GitHub organization registered but contains no public repositories
+  - No public status page or machine-readable changelog
+recommendation: >-
+  Tier-3, no-apis. Maintain registry entry for completeness of the
+  U.S. wealth management landscape but do not invest further pipeline
+  cycles unless Janney publishes a partner/developer API surface or its
+  parent (Penn Mutual) exposes a unified API platform.

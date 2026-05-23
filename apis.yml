@@ -1,0 +1,49 @@
+aid: janney-montgomery-scott
+name: Janney Montgomery Scott
+description: >-
+  Janney Montgomery Scott LLC is a full-service wealth management, financial
+  services, and investment banking firm headquartered in Philadelphia,
+  Pennsylvania, and continuously operating since 1832. A wholly owned
+  subsidiary of The Penn Mutual Life Insurance Company, Janney serves
+  individual investors, corporations, and municipalities through more than
+  100 branch offices across the United States, with over 900 financial
+  advisors managing in excess of $167 billion in client assets under advisement.
+  The firm provides client account access through the MyJanney online portal
+  and iOS/Android mobile apps, but does not publish a general-purpose public
+  developer API, OpenAPI specification, or external developer portal.
+kind: contract
+position: Consuming
+access: 3rd-Party
+url: https://raw.githubusercontent.com/api-evangelist/janney-montgomery-scott/refs/heads/main/apis.yml
+tags:
+  - Asset Management
+  - Brokerage
+  - Capital Markets
+  - Financial Planning
+  - Financial Services
+  - Investment Banking
+  - Investment Management
+  - Private Company
+  - Wealth Management
+created: '2026-05-03'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.janney.com
+  - type: ClientPortal
+    url: https://www.myjanney.com
+  - type: GitHubOrg
+    url: https://github.com/Janney-Montgomery-Scott
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/janney-montgomery-scott
+  - type: News
+    url: https://www.janney.com/meet-janney/corporate-news
+  - type: MobileApp
+    url: https://apps.apple.com/us/app/myjanney/id1061183120
+  - type: Parent
+    url: https://www.pennmutual.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
