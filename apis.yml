@@ -43,7 +43,7 @@ tags:
   - Brokerage
   - Capital Markets
   - Financial Planning
-  - Financial-Services
+  - Financial Services
   - Investment Banking
   - Investment Management
   - Private Company
@@ -58,6 +58,7 @@ tags_raw:
   - Investment Management
   - Private Company
   - Wealth Management
+  - Financial-Services
 created: '2026-05-03'
 modified: '2026-05-23'
 specificationVersion: '0.23'
